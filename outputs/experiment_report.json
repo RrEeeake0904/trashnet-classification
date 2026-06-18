@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-06-18T18:04:58.686890",
+  "pytorch": "2.5.1",
+  "cuda": true,
+  "device": "cuda",
+  "dataset": "TrashNet",
+  "classes": [
+    "cardboard",
+    "glass",
+    "metal",
+    "paper",
+    "plastic",
+    "trash"
+  ],
+  "ResNet18": {
+    "val_acc": 79.15567282321899,
+    "test_acc": 76.84210526315789,
+    "params": 11309382,
+    "trainable_params": 132870
+  },
+  "CustomCNN": {
+    "val_acc": 65.69920844327177,
+    "test_acc": 63.68421052631579,
+    "params": 26277286
+  },
+  "hyperparameters": {
+    "epochs": 30,
+    "batch_size_resnet": 32,
+    "batch_size_cnn": 16,
+    "learning_rate": 0.001,
+    "img_size": 224
+  }
+}

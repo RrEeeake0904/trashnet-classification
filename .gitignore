@@ -1,0 +1,37 @@
+# 大型文件 - 不上传
+data/
+models/
+
+# 论文文档 - 不上传
+论文草稿.md
+项目全流程文档.md
+*.docx
+~$*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# 中间文件
+*.pth
+*.pt
+
+# 临时文件
+unpacked_check/
+unpacked_cover/
+unpacked_*/
+repack.py
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# IDE
+.vscode/
+.idea/
